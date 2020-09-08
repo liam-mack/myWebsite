@@ -12,6 +12,10 @@ body {
   background: url("../images/mainbg.jpg") no-repeat center fixed;
   background-size: cover;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
   color: #eee;
