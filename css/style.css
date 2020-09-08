@@ -697,6 +697,9 @@ body .frame.focus .picture {
     background: url("../images/bg3.jpg") no-repeat center fixed;
     background-size: cover;
   }
+  section{
+    box-shadow: none;
+  }
   .paralliam{
     background-attachment: fixed;
     background-position: center;
