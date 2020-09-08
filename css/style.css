@@ -701,6 +701,7 @@ body .frame.focus .picture {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    right: 0;
   }
   .landing-text h1 {
     font-size: 8rem;
