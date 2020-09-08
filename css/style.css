@@ -747,6 +747,9 @@ body .frame.focus .picture {
     top: 2rem;
     right: 2rem;
   }
+  section{
+    box-shadow: none;
+  }
 
   .landing-text h1 {
     font-size: 5rem;
