@@ -688,11 +688,19 @@ body .frame.focus .picture {
     background: url("../images/bg3.jpg") no-repeat center fixed;
     background-size: cover;
   }
+  /* .paralliam{
+    background-attachment: inherit;
+    height: 100%;
+    width: 650px;
+    bottom: -250px;
+    right: px;
+  } */
   .paralliam{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
   }
   .landing-text h1 {
     font-size: 8rem;

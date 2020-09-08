@@ -25,7 +25,6 @@ $(document).ready(function () {
     // Parallax Effects
     const paralliam = document.querySelectorAll(`.paralliam`);
     const windowWidth = $(window).width();
-    console.log(windowWidth)
 
     window.addEventListener(`scroll`, () => {
         let scroll = window.pageYOffset;
