@@ -95,6 +95,9 @@ header {
   width: 100vw;
   height: 100vh;
   max-width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 .top-nav {
   width: 100%;
@@ -124,11 +127,13 @@ li {
 .fixedNav #navigationBar{
   position: fixed;
   top:0;
+  margin:0;
 }
 #navigationBar{
   width:100%;
   max-width: 100%;
   z-index: 100;
+  margin: 0;
 }
 
 .nav-link:hover,
@@ -698,7 +703,7 @@ body .frame.focus .picture {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    left: 0px;
+    left: -150px;
     /* right: -100px !important; */
   }
   .landing-text h1 {
