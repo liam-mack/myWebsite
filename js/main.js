@@ -23,14 +23,19 @@ $(document).ready(function () {
     });
     
     // Parallax Effects
-    const paralliam = document.querySelectorAll(`.paralliam`)
+    const paralliam = document.querySelectorAll(`.paralliam`);
+    const windowWidth = $(window).width();
+    console.log(windowWidth)
+
     window.addEventListener(`scroll`, () => {
         let scroll = window.pageYOffset;
         
+        if(windowWidth > 800){
         paralliam.forEach(element => {
             let speed = element.dataset.speed;
             element.style.transform = `translateX(${scroll * speed}px)`;
         })
+    }
         
     })
 

@@ -15,8 +15,8 @@ body {
   background: url("../images/mainbg.jpg") no-repeat center fixed;
   background-size: cover;
   overflow-x: hidden;
-  position: relative
 }
+
 a {
   text-decoration: none;
   color: #eee;
@@ -686,6 +686,12 @@ body .frame.focus .picture {
 @media screen and (max-width: 768px) {
   body {
     background: url("../images/bg3.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+  .paralliam{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
   .landing-text h1 {
