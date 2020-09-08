@@ -694,7 +694,7 @@ body .frame.focus .picture {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    left: 25px !important;
+    right: 5px !important;
   }
   .landing-text h1 {
     font-size: 8rem;
