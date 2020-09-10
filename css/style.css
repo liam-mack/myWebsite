@@ -225,9 +225,9 @@ li {
 /* Parallax Start */
 .paralliam{
   position: absolute;
-  width: 650px;
-  bottom: -250px;
-  right: -70px;
+  width: 60rem;
+  bottom: -7rem;
+  right: -7rem;
   z-index: -1;
 }
 /* Parallax END */
@@ -601,7 +601,7 @@ input[type="submit"]:hover {
 
 /* Footer END */
 
-/* Card CSS */
+/* About Profile Card CSS */
 body .frame .social.facebook:hover,
 body .frame .social.facebook:focus,
 body .frame .social.linkedin:hover,
@@ -696,7 +696,7 @@ body .frame.focus .picture {
 
 /* Media Queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   body {
     background: url("../images/bg3.jpg") no-repeat center fixed;
     background-size: cover;
@@ -704,15 +704,17 @@ body .frame.focus .picture {
   section{
     box-shadow: none;
   }
+
   .paralliam{
-    background-attachment: fixed;
+    display: none;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    left: -150px;
-    /* right: -100px !important; */
+    position: relative;
+    border-bottom-left-radius: 100%; */
   }
+
   .landing-text h1 {
     font-size: 8rem;
   }
@@ -727,6 +729,9 @@ body .frame.focus .picture {
   }
   .nav-link {
     font-size: 3.5rem;
+  }
+  .about{
+    margin-top: 0rem;
   }
   .about-heading h1 {
     font-size: 5rem;
@@ -743,6 +748,13 @@ body .frame.focus .picture {
   }
   .icon-container p {
     font-size: 1rem;
+  }
+  body .frame {
+    width: 40vw;
+    height: 50vw;
+    margin: auto;
+    /* margin-top: 10rem; */
+  
   }
 }
 
