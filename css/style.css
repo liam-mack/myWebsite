@@ -363,12 +363,14 @@ p{
 .portfolio-description .cta:hover {
   color: #fff;
 }
+#github-link{
+  text-align: center;
+}
+#github-link a:hover{
+  color: #ffe838;
+}
 /* Portfolio Card */
-/* @media (max-width: 767px) {
-  body {
-    display: block;
-  }
-} */
+
 .portCard {
   display: grid;
   border-radius: 8px;
