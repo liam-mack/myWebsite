@@ -386,6 +386,10 @@ p{
   transition: height 1000ms;
   width: 260px;
 }
+
+.portCard a {
+  font-size: 1.8rem;
+}
 @media (max-width: 767px) {
   .portCard {
     left: calc(50% - 20px);
