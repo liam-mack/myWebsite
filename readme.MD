@@ -35,10 +35,9 @@
 >Unlicense
 
 ## Deployment
-Live Recording?: No  
+https://liam-mack.github.io/myWebsite/
 
 Screenshot?: Yes
-https://liam-mack.github.io/myWebsite/
 ![](images/Deployed.png)
 
 ### Questions
