@@ -194,9 +194,9 @@
             </button>
             <h1>Frontend Development</h1>
             <p>
-              Proficient with HTML, CSS, Javascript, jQuery, SASS, and a variety
+              Proficient with HTML, CSS, Javascript, jQuery, React, SASS, and a variety
               of third-party frameworks.<br />
-              Currently learning: TypeScript, React.js
+              Currently learning: TypeScript
             </p>
           </div>
           <div class="skill" data-aos="fade-in" data-aos-delay="900">
@@ -205,12 +205,14 @@
             </button>
             <h1>Backend Development</h1>
             <p>
-              Comfortable working with Node.js, Python, Express, Sequelize, and
-              SQL databases.<br />
-              Currently learning: Ruby, MongoDB, & GraphQL
+              Comfortable working with Node.js, Python, Express, and SQL & NoSQL databases.<br />
+              Currently learning: Ruby & GraphQL
             </p>
           </div>
         </div>
+
+        <!-- Start of Portfolio - Projects -->
+
         <div class="category-project showCategory">
         <div class="portfolio-item">
           <div class="portfolio-img has-margin-right">
@@ -312,54 +314,59 @@
             </svg>
           </div>
         </div>
-    </div>
-    <div class="category-frontEnd hideCategory">
         <div class="portfolio-item">
-            <div
-              class="portfolio-description has-margin-right"
-              data-aos="fade-right"
-            >
-              <h6>MackBurger</h6>
-              <h6>Roles: Full-Stack Developer</h6>
+          <div class="portfolio-img has-margin-right">
+              <div class="portCard" onclick="this.classList.toggle('expanded')">
+                <img src="./images/BoW.png" alt="" class="label" />
+        
+                <div class="text1">
+                  <div class="text-content">
+                    <h1 class="title">Balls of War</h1>
+                    <div class="body-text">
+                      <a
+                        href="https://balls-of-war.herokuapp.com/"
+                        target="_blank"
+                        >Deployed Link</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <svg
+                  class="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 100 35"
+                  width="30"
+                >
+                  <path
+                    d="M5 30L50 5l45 25"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="10"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="portfolio-description" data-aos="fade-left">
+              <h6>Balls of War</h6>
+              <h6>Roles: Project Management, Full Stack Developer, & UI Design</h6>
               <p>
-                Basic SQL CRUD application handled by custom ORM and deployed on Heroku with JawsDB. Also takes advantage of util's promisify method to remove Nodestyle callback functions.
+                  MERN-Stack Basketball card game based on the tabletop classic War. Built using create-react-app and handles authorization through PassportJS.
               </p>
               <a
-                href="https://github.com/liam-mack/MackBurger"
+                href="https://github.com/liam-mack/Balls-of-War"
                 target="_blank"
                 class="cta"
                 >View Repository</a
               >
             </div>
-            <div class="portCard" onclick="this.classList.toggle('expanded')">
-              <img src="./images/Mackburger.png" alt="" class="label" />
-              <div class="text2">
-                <div class="text-content">
-                  <h1 class="title">MackBurger</h1>
-                  <div class="body-text">
-                    <a
-                      href="https://mackburger.herokuapp.com/"
-                      target="_blank"
-                      >Deployed Link</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <svg
-                class="chevron"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 100 35"
-                width="30"
-              >
-                <path
-                  d="M5 30L50 5l45 25"
-                  fill="none"
-                  stroke="#fff"
-                  stroke-width="10"
-                />
-              </svg>
-            </div>
           </div>
+    </div>
+
+      <!-- End of Portfolio - Projects -->
+
+      <!-- Start of Portfolio - Front End -->
+
+    <div class="category-frontEnd hideCategory">
         <div class="portfolio-item">
         </div>
           <!-- </div> -->
@@ -463,6 +470,98 @@
               </svg>
             </div>
           </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right">
+                <div class="portCard" onclick="this.classList.toggle('expanded')">
+                  <img src="./images/BoW.png" alt="" class="label" />
+          
+                  <div class="text1">
+                    <div class="text-content">
+                      <h1 class="title">Balls of War</h1>
+                      <div class="body-text">
+                        <a
+                          href="https://balls-of-war.herokuapp.com/"
+                          target="_blank"
+                          >Deployed Link</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <svg
+                    class="chevron"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 100 35"
+                    width="30"
+                  >
+                    <path
+                      d="M5 30L50 5l45 25"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="10"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="portfolio-description" data-aos="fade-left">
+                <h6>Balls of War</h6>
+                <h6>Roles: Project Management, Full Stack Developer, & UI Design</h6>
+                <p>
+                    MERN-Stack Basketball card game based on the tabletop classic War. Built using create-react-app and handles authorization through PassportJS.
+                </p>
+                <a
+                  href="https://github.com/liam-mack/Balls-of-War"
+                  target="_blank"
+                  class="cta"
+                  >View Repository</a
+                >
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div
+                class="portfolio-description has-margin-right"
+                data-aos="fade-right"
+              >
+                <h6>MackBurger</h6>
+                <h6>Roles: Full-Stack Developer</h6>
+                <p>
+                  Basic SQL CRUD application handled by custom ORM and deployed on Heroku with JawsDB. Also takes advantage of util's promisify method to remove Nodestyle callback functions.
+                </p>
+                <a
+                  href="https://github.com/liam-mack/MackBurger"
+                  target="_blank"
+                  class="cta"
+                  >View Repository</a
+                >
+              </div>
+              <div class="portCard" onclick="this.classList.toggle('expanded')">
+                <img src="./images/Mackburger.png" alt="" class="label" />
+                <div class="text2">
+                  <div class="text-content">
+                    <h1 class="title">MackBurger</h1>
+                    <div class="body-text">
+                      <a
+                        href="https://mackburger.herokuapp.com/"
+                        target="_blank"
+                        >Deployed Link</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <svg
+                  class="chevron"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 100 35"
+                  width="30"
+                >
+                  <path
+                    d="M5 30L50 5l45 25"
+                    fill="none"
+                    stroke="#fff"
+                    stroke-width="10"
+                  />
+                </svg>
+              </div>
+            </div>
           <div class="portfolio-item">
             <div class="portfolio-img has-margin-right">
               <div class="portCard" onclick="this.classList.toggle('expanded')">
@@ -740,38 +839,12 @@
                   </div>
         </div>
 
+        <!-- End of Portfolio - Front End  -->
 
-
+        <!-- Start of Portfolio - Back End -->
 
         <div class="category-backEnd hideCategory">
-          <div class="portfolio-item">
-            <div class="portfolio-description has-margin-right aos-init aos-animate" data-aos="fade-right">
-              <h6>Live Update CryptoTracker</h6>
-              <h6>Roles: Full-Stack Developer, Project Management</h6>
-              <p>
-                This application tracks the current value of high-profile
-                CryptoCurrency and blockchain technologies in real time and
-                presents them on a dynamically populated graph. User's can
-                similarly research current relevant news/podcasts in the field,
-                and query for specific currencies.
-              </p>
-              <a href="https://github.com/liam-mack/LSD-project" target="_blank" class="cta">View Repository</a>
-            </div>
-            <div class="portCard" onclick="this.classList.toggle('expanded')">
-              <img src="./images/crypto.png" alt="" class="label">
-              <div class="text2">
-                <div class="text-content">
-                  <h1 class="title">CryptoTracker</h1>
-                  <div class="body-text">
-                    <a href="https://diliubarets.github.io/LSD-project/" target="_blank">Deployed Link</a>
-                  </div>
-                </div>
-              </div>
-              <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
-                <path d="M5 30L50 5l45 25" fill="none" stroke="#fff" stroke-width="10"></path>
-              </svg>
-            </div>
-          </div>
+         
           <div class="portfolio-item">
             <div class="portfolio-img has-margin-right">
               <div class="portCard" onclick="this.classList.toggle('expanded')">
@@ -803,8 +876,82 @@
               </p>
               <a href="https://github.com/a-mccaffrey/covid-doctor-checkup" target="_blank" class="cta">View Repository</a>
             </div>
-            
           </div>
+          <div class="portfolio-item">
+            <div class="portfolio-description has-margin-right aos-init aos-animate" data-aos="fade-right">
+              <h6>Live Update CryptoTracker</h6>
+              <h6>Roles: Full-Stack Developer, Project Management</h6>
+              <p>
+                This application tracks the current value of high-profile
+                CryptoCurrency and blockchain technologies in real time and
+                presents them on a dynamically populated graph. User's can
+                similarly research current relevant news/podcasts in the field,
+                and query for specific currencies.
+              </p>
+              <a href="https://github.com/liam-mack/LSD-project" target="_blank" class="cta">View Repository</a>
+            </div>
+            <div class="portCard" onclick="this.classList.toggle('expanded')">
+              <img src="./images/crypto.png" alt="" class="label">
+              <div class="text2">
+                <div class="text-content">
+                  <h1 class="title">CryptoTracker</h1>
+                  <div class="body-text">
+                    <a href="https://diliubarets.github.io/LSD-project/" target="_blank">Deployed Link</a>
+                  </div>
+                </div>
+              </div>
+              <svg class="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30">
+                <path d="M5 30L50 5l45 25" fill="none" stroke="#fff" stroke-width="10"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right">
+                <div class="portCard" onclick="this.classList.toggle('expanded')">
+                  <img src="./images/BoW.png" alt="" class="label" />
+          
+                  <div class="text1">
+                    <div class="text-content">
+                      <h1 class="title">Balls of War</h1>
+                      <div class="body-text">
+                        <a
+                          href="https://balls-of-war.herokuapp.com/"
+                          target="_blank"
+                          >Deployed Link</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <svg
+                    class="chevron"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 100 35"
+                    width="30"
+                  >
+                    <path
+                      d="M5 30L50 5l45 25"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="10"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="portfolio-description" data-aos="fade-left">
+                <h6>Balls of War</h6>
+                <h6>Roles: Project Management, Full Stack Developer, & UI Design</h6>
+                <p>
+                    MERN-Stack Basketball card game based on the tabletop classic War. Built using create-react-app and handles authorization through PassportJS.
+                </p>
+                <a
+                  href="https://github.com/liam-mack/Balls-of-War"
+                  target="_blank"
+                  class="cta"
+                  >View Repository</a
+                >
+              </div>
+            </div>
+          
           <div class="portfolio-item">
             <div
               class="portfolio-description has-margin-right"
